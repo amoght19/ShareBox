@@ -27,10 +27,10 @@ To use ShareBox locally or deploy it to your own server, follow these steps:
    git clone https://github.com/amoght19/ShareBox.git
    ```
 
-2. Go to root directory
-     ```bash
+2. Navigate to the project directory:
+    ```bash
     cd ShareBox
-   ```
+    ```
 
 3. Create a .env file for holding your Mongo database username and password.
 
