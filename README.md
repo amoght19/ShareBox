@@ -9,6 +9,14 @@ ShareBox is a simple and secure file-sharing application that allows users to up
 - ShareBox provides a clean and intuitive user interface that adapts to different devices, making it easy to use on desktops, tablets, and smartphones.
 
 
+## Technologies Used
+
+- Node.js
+- Express.js
+- MongoDB
+- React
+- Multer
+
 ## Run locally
 
 To use ShareBox locally or deploy it to your own server, follow these steps:
@@ -18,39 +26,53 @@ To use ShareBox locally or deploy it to your own server, follow these steps:
    ```bash
    git clone https://github.com/amoght19/ShareBox.git
    ```
-2. Install dependencies for server:
+
+2. Go to root directory
+     ```bash
+    cd ShareBox
+   ```
+
+3. Create a .env file for holding your Mongo database username and password.
+
+4. Create two keys in the .env file and replace <Your Username> with your username and <Your Password> with your password.
+```bash
+MONGODB_USERNAME=<Your Username>
+MONGODB_USER_PASSWORD=<Your Password>
+   ```
+
+5. Install dependencies for server:
 
    ```bash
    cd server
    npm install
    ```
 
-3. Start your development  server
+6. Start your development  server
 
    ```bash
    npm start
    ```
 
-4. Go to root directory
+7. Go to root directory
 
    ```bash
    cd ..
    ```
 
-5. Install dependencies for React client-side
+8. Install dependencies for React client-side
 
    ```bash
    cd client
    npm install
    ```
 
-6. Start your ShareBox app
+9. Start your ShareBox app
 
    ```bash
    npm run dev
    ```
 
-7. Your ShareBox app is now live at https://localhost:3000/
+10. Your ShareBox app is now live at https://localhost:3000/
 
 ## Usage
 
